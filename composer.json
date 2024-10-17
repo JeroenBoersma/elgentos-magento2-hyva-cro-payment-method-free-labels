@@ -1,0 +1,16 @@
+{
+  "name": "elgentos/magento2-hyva-cro-payment-method-free-labels",
+  "description": "Add 'Free' labels to your payment method options in the checkout",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Elgentos\\HyvaCROPaymentMethodFreeLabels\\": ""
+    }
+  }
+}
