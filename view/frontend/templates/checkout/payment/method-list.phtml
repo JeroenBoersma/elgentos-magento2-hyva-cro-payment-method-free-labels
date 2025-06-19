@@ -29,7 +29,7 @@ $methods = $viewModel->getList();
 ?>
 <div id="payment-methods">
     <?php if ($methods): ?>
-        <div x-data="viewFrontendTemplatesCheckoutPaymentMethodListMovedScript0"
+        <div x-data="triggerCeckoutPaymentActivateEvent"
             data-method="<?= $escaper->escapeHtmlAttr($magewire->method) ?>">
 
         </div>
